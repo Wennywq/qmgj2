@@ -1,0 +1,43 @@
+<div class="detailof2 container">
+	<div class="detailof2-title clear">
+		<span>&lt;&lt;犹太人在上海&gt;&gt;音乐剧</span>
+		<div class="detailof2-title-right">
+			<img src="../images/progress2.png" alt="">
+		</div>
+	</div>
+	<div class="detailof2-main">
+        <h1>
+            <span>订单号：4496480277289</span>
+            <span>&nbsp;&nbsp;&nbsp;&nbsp;请您在<span class="time">24小时</span>内付清款项，否则订单会被自动取消。</span>
+        </h1>
+        <div class="pay clear">
+            <span class="txt1" ng-click="clickFun4(0)" ng-class="{active:show2==0}">快捷支付</span>
+            <span class="txt2" ng-click="clickFun4(1)" ng-class="{active:show2==1}">网银支付</span>
+            <span class="txt3">应付款 <span class="txt4">￥5.00</span></span>
+        </div>
+        <div class="pay-bank" ng-show="show2==0">
+            <h6>请选择银行：</h6>
+            <div class="container">
+                <div class="row">
+                  <div class="col-md-3 bank" ng-repeat="str2 in a2" ng-class="{active:showIndex2==$index}" ng-click="clickFun2($index)">
+                     <img ng-src="{{str2.img}}" alt="">
+                  </div>
+                </div>
+            </div>
+        </div>
+         <div class="pay-bank" ng-show="show2==1">
+            <h6>请选择网银</h6>
+            <div class="container">
+                <div class="row">
+                  <div class="col-md-3 bank" ng-repeat="test3 in test3" ng-class="{active:showIndex2==$index}" ng-click="clickFun2($index)">
+                    <img ng-src="{{test3.img}}" alt="">
+                  </div>
+                </div>
+            </div>
+        </div>
+        <span class="detaileof2-btn">
+            <a ui-sref="detailof3" title="">确认支付</a>
+        </span>
+    </div>
+		
+</div>

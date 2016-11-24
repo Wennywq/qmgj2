@@ -1,0 +1,14 @@
+<div class="test3-1">
+	<form name="myForm" ng-model="myForm" novalidate>
+		<p>当前密码<input type="text" name=""></p>
+		<p>
+		   新密码
+		   <input type="text" name='psd' ng-model='psd' required ng-minlength='6'>
+		  <!--  <span ng-show="myForm.psd.$error.minlength" style="color:lightgray">(密码不少于6位)</span>
+		   <span ng-show="myForm.psd.$error.required && myForm.psd.$dirty" style="color:lightgray">(*必填)</span> -->
+		</p>
+		<div>已绑定手机号 <span>136****0800</span></div>
+		<p>验证码<input type="text"> <button type="button"></button></p>
+	</form>
+	<span class="save2">保存</span>
+</div>

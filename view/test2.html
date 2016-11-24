@@ -1,0 +1,32 @@
+<div class="test2">
+    <div class="test2-title clear">
+    	<span>修改头像</span>
+	    <img src="../images/add.png" alt="">
+    </div>
+    <p>用户昵称 <input type="text" name="" value="" placeholder=""></p>
+    <p class="p1">
+	   <span class="sex">性别</span>
+       <span class="boybox">
+           <span class="boy" ng-click="clickFun2(0)" ng-class="{active6:showIndex2==0}"></span>
+       </span>
+       <span>男</span>
+       <span class="boybox">
+           <span class="boy"  ng-click="clickFun2(1)" ng-class="{active6:showIndex2==1}"></span>
+       </span>
+       <span>女</span>
+    </p>
+    <div class="focus clear">
+    	<div class="focus-left">
+    		关注圈子
+    	</div>
+    	<ul class="focus-right clear">
+          <li ng-repeat="str in a2" class="li1" ng-click="clickFun($index)" ng-class="{active:a3[$index]}">{{str.name}}</li>
+           <!-- <li ng-repeat="str in a2" class="li1" ng-click="toggle=!toggle" ng-class="{'active':toggle}">{{str.name}}</li> -->
+    	</ul>
+    </div>
+    <a href="#myModal" role="button" class="btn" data-toggle="modal">保存</a>
+ 
+    <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      保存成功
+    </div>
+</div>

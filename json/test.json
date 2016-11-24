@@ -1,0 +1,148 @@
+{
+    "data": {
+        "count": 4,
+        "countpage": 1,
+        "list": [
+            {
+                "oid": "4496480277289",
+                "rprice": "50.0",
+                "status": "0",
+                "id": "4",
+                "fname": "万娱引力",
+                "name": "触电来袭：互动演出鬼吹灯",
+                "img": "images/index-img2.png"
+            },
+            {
+                "oid": "4496480277289",
+                "rprice": "50.0",
+                "status": "0",
+                "id": "5",
+                "fname": "人人娱乐",
+                "name": "触电来袭：互动演出鬼吹灯",
+                "img": "images/index-img2.png"
+            },
+            {
+                "oid": "4496480277289",
+                "rprice": "50.0",
+                "status": "1",
+                "id": "4",
+                "fname": "万娱引力",
+                "name": "触电来袭：互动演出鬼吹灯",
+                "img": "images/index-img2.png"
+            },
+            {
+                "oid": "4496480277289",
+                "rprice": "50.0",
+                "status": "1",
+                "id": "3",
+                "fname": "上海传媒",
+                "name": "触电来袭：互动演出鬼吹灯",
+                "img": "images/index-img2.png"
+            }
+        ],
+        "test2": [
+            {
+                "name": "微电影",
+                "img":"images/a.png"
+              
+            },
+            {
+                "name": "电影",
+                "img":"images/b.png"
+            },
+            {
+                "name": "电视剧",
+                "img":"images/c.png"
+            },
+            {
+                "name": "戏剧",
+                "img":"images/d.png"
+            },
+            {
+                "name": "戏曲",
+                "img":"images/e.png"
+            },
+            {
+                "name": "音乐剧",
+                "img":"images/a.png"
+            },
+            {
+                "name": "纪录片",
+                "img":"images/a.png"
+            },
+            {
+                "name": "其他",
+                "img":"images/a.png"
+            },
+            {
+                "name": "话剧",
+                "img":"images/a.png"
+            },
+            {
+                "name": "相声",
+                "img":"images/a.png"
+            },
+            {
+                "img":"images/a.png"
+            },
+            {
+                "img":"images/a.png"
+            },
+            {
+                "img":"images/a.png"
+            }
+        ],
+        "test3": [
+            {
+                "img":"images/b.png"
+              
+            },
+            {
+                "img":"images/a.png"
+            },
+            {
+                "img":"images/d.png"
+            },
+            {
+                "img":"images/c.png"
+            },
+            {
+                "img":"images/e.png"
+            },
+            {
+                "img":"images/a.png"
+            },
+            {
+                "img":"images/a.png"
+            },
+            {
+                "img":"images/a.png"
+            },
+            {
+                "img":"images/a.png"
+            },
+            {
+                "img":"images/a.png"
+            },
+            {
+                "img":"images/a.png"
+            },
+            {
+                "img":"images/a.png"
+            },
+            {
+                "img":"images/a.png"
+            }
+        ],
+        "list2":[
+            {"img":"images/index3-img.png"},
+            {"img1":"images/img3.jpg"},
+            {"img2":"images/index3-img.png"}
+        ]
+    },
+    "err": 0,
+    "errcode": 0,
+    "desc": "",
+    "t": 1450265750,
+    "at": 0.009087085723877
+}

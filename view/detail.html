@@ -1,0 +1,102 @@
+<div class="detail-title" ng-repeat=" a in pro">
+	<center class="detail-title1">{{a.name}}</center>
+	<center class="detail-title2">{{a.txt}}</center>
+</div>
+<div class="detailbox container">
+	<div class="detailof1 clear" ng-repeat=" a in pro">
+		<img ng-src="{{a.img}}" alt="" class="detailof1-img">
+		<div class="detailof1-right">
+			<p class="num">{{a.txt2}}</p>
+			<p class="news">支持者</p>
+			<p class="num">￥{{a.txt3}}</p>
+			<p class="news">
+				<span>支持金额 总金额：￥32,000</span>
+			</p>
+			<p class="num">{{a.txt4}}</p>
+			<p class="news">剩余天数</p>
+			<div class="detail-btnbox clear">
+			    <span class="detail-btn">支持项目</span>
+			    <span class="detail-share icon icon-weixin">支持项目</span>
+            </div>
+            <span>该项目必须在2015年12月1日上午10点完成￥32,000，才募集成功开始项目。</span>
+		</div>
+	</div>
+	<div class="detailof1-news">
+			<span class="icon icon-biaoqian news1">话剧</span>
+			<span class="icon icon-tv news1">卫视推荐</span>
+    </div>
+    <div class="detailof1-news2 clear">
+    	<div class="detailof1-news-left" ng-repeat=" a in pro">
+    		{{a.txt5}}
+    	</div>
+    	<div class="detailof1-news-right clear">
+    		<div class="logo-title">
+    			<p>恒源祥戏剧创意</p>
+    			<p>
+    			<span>他的主页</span>
+    			<span>联系他</span>
+    			</p>
+    		</div>
+    		<div class="logo-news">
+    			<img src="../images/index3-qq.png" alt="">
+    		</div>
+    	</div>
+    </div>
+</div>
+<div class="detail-navboxx">
+    <div class="detail-navbox2 container">
+		<span ng-click="clickFun5(0)" ng-class="{active2:show3==0}">项目介绍</span>
+		<span ng-click="clickFun5(1)" ng-class="{active2:show3==1}">发展历程</span>
+		<span ng-click="clickFun5(2)" ng-class="{active2:show3==2}">圈子交流</span>
+	</div>
+</div>
+<div class="footer container clear">
+	<div class="footer-left">
+		<div ng-repeat="b in imgList">
+			<img ng-show="show3==0" ng-src="{{b.img}}" alt="">
+			<img ng-show="show3==1" ng-src="{{b.img1}}" alt="">
+			<img ng-show="show3==2" ng-src="{{b.img2}}" alt="">
+		</div>
+	</div>
+	<div class="footer-rightBox">
+		<div class="footer-right">
+		    <div class="footer-right-title clear">
+		    	<span class="five">支持 ￥5</span>
+		    	<span class="limit">，限5000位</span>
+		    	<span class="support">14位支持者</span>
+		    </div>
+			<div class="footer-rightbox">
+				<p class="p1">感谢您的支持，您将获得：</p>
+				<p class="p2">1.犹太人在上海手机壁纸一套（共7张）；2.每200人随机抽取1名幸运用户，不满200人也按200人抽取，获赠《犹太人在上海》演员签名海报一份+纪念画册一本；中奖名单将在话题区公布，奖品最终由项目方发送至得奖者手中（免配送费）。</p>
+				<p class="p3"><span>预计回报发放时间：</span>项目成功结束后5天内</p>
+				<div class="support-btn">
+				    <a ui-sref="detailof1" title="">支持￥5</a>
+				</div>
+			</div>
+		</div>
+		<div class="footer-right">
+		    <div class="footer-right-title clear">
+		    	<span class="five">支持 ￥5</span>
+		    	<span class="limit">，限5000位</span>
+		    	<span class="support">14位支持者</span>
+		    </div>
+			<div class="footer-rightbox">
+				<p class="p1">感谢您的支持，您将获得：</p>
+				<p class="p2">1.犹太人在上海手机壁纸一套（共7张）；2.每200人随机抽取1名幸运用户，不满200人也按200人抽取，获赠《犹太人在上海》演员签名海报一份+纪念画册一本；中奖名单将在话题区公布，奖品最终由项目方发送至得奖者手中（免配送费）。</p>
+				<p class="p3"><span>预计回报发放时间：</span>项目成功结束后5天内</p>
+				<div class="support-btn">
+					<a href="" title="">支持￥5</a>
+				</div>
+			</div>
+		</div>
+		<div class="footer-right footer-rightof2">
+		    <div class="footer-right-title clear">
+		    	<span class="five">关于支持与退款</span>
+		    </div>
+			<div class="footer-rightbox">
+				<p>该项目必须在<span class="span1">2015</span>年<span class="span1">12</span>月<span class="span1">15</span>日上午<span class="span1">10</span>点前完成<span class="span1">¥32，000</span>才算成功，否则订单将取消。</p>
+				<p>订单取消后，您的支持金额，将从你支付的储蓄卡或信用卡原路退回。</p>
+			</div>
+		</div>
+	</div>
+</div>

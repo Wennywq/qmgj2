@@ -1,0 +1,10 @@
+<div class="test3-2">
+	<p class="pId">身份证认证由NCIIC提供接口</p>
+	<form name="myForm" ng-model="myForm" novalidate>
+		<p>姓名<input type="text" name=""></p>
+		<p>身份证号<input type="text" name="IDcard" ng-model='IDcard' ng-pattern='/^(\d{15}$|^\d{18}$|^\d{17}(\d|X|x))$/' required></p>
+		<div ng-show='myForm.IDcard.$error.required && myForm.IDcard.$dirty' style="color:red">*必填</div>
+		<div ng-show="myForm.IDcard.$error.pattern" style="color:red">您输入正确的身份证号码</div>
+	</form>
+	<span>保存</span>
+</div>

@@ -1,0 +1,126 @@
+<div class="detail-nav">
+	<div class="detail-navbox container">
+	    <p>
+			<a href="#" title="" class="active">全部</a>
+			<a href="#" title="">微电影</a>
+			<a href="#" title="">电影</a>
+			<a href="#" title="">电视剧</a>
+			<a href="#" title="">戏剧</a>
+			<a href="#" title="">话剧</a>
+			<a href="#" title="">书画</a>
+			<a href="#" title="">相声</a>
+			<a href="#" title="">戏剧</a>
+			<a href="#" title="">音乐</a>
+			<a href="#" title="">其他</a>
+		</p>
+		<p>
+			<a href="#" title="">筹资中</a>
+			<a href="#" title="">即将结束</a>
+			<a href="#" title="" class="active">已成功</a>
+		</p>
+		<p>
+			<a href="#" title=""  class="active">最新</a>
+			<a href="#" title="">热门时间</a>
+			<a href="#" title="">结束时间</a>
+		</p>
+	</div>
+</div>
+<div class="index-main">
+    <div class="index-mainof2 container">
+          <ul class="index-mainof2-news">
+                <li class="index-mainof2-news1" ng-repeat="arr1 in arr">
+                    <img ng-src="{{arr1.img}}" alt="">
+                    <div class="index-mainof2-news-center">
+                            <h1>&lt;&lt;{{arr1.name}}&gt;&gt;</h1>
+                            <p class="computer">by {{arr1.by}}</p>
+                            <p>&lt;&lt;{{arr1.name}}&gt;&gt;{{arr1.txt}}</p>
+                            <div class="TV">
+                                <span class="icon icon-biaoqian">{{arr1.txt2}}</span>
+                            </div>
+                            <div class="progress">
+                                  <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                    <span class="sr-only">60% Complete (danger)</span>
+                                  </div>
+                            </div>
+                            <ul class="percent clear">
+                                <li>
+                                    <div>{{arr1.txt3}}%</div>
+                                    <div>进度</div>
+                                </li>
+                                <li>
+                                    <div>¥{{arr1.txt4}}</div>
+                                    <div>支持金额</div>
+                                </li>
+                                <li>
+                                    <div>6</div>
+                                    <div>剩余天数</div>
+                                </li>
+
+                            </ul>
+                        </div>
+                </li>
+                 <li class="index-mainof2-news1" ng-repeat="arr2 in arr2">
+                    <img ng-src="{{arr2.img}}" alt="">
+                    <div class="index-mainof2-news-center">
+                            <h1>&lt;&lt;{{arr2.name}}&gt;&gt;</h1>
+                            <p class="computer">by {{arr2.by}}</p>
+                            <p>&lt;&lt;{{arr2.name}}&gt;&gt;{{arr2.txt}}</p>
+                            <div class="TV">
+                                <span class="icon icon-biaoqian">{{arr2.txt2}}</span>
+                            </div>
+                            <div class="progress">
+                                  <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                    <span class="sr-only">60% Complete (danger)</span>
+                                  </div>
+                            </div>
+                            <ul class="percent clear">
+                                <li>
+                                    <div>{{arr2.txt3}}%</div>
+                                    <div>进度</div>
+                                </li>
+                                <li>
+                                    <div>¥{{arr2.txt4}}</div>
+                                    <div>支持金额</div>
+                                </li>
+                                <li>
+                                    <div>6</div>
+                                    <div>剩余天数</div>
+                                </li>
+
+                            </ul>
+                        </div>
+                </li>
+                <li class="index-mainof2-news1" ng-repeat="arr3 in arr3">
+                    <img ng-src="{{arr3.img}}" alt="">
+                    <div class="index-mainof2-news-center">
+                            <h1>&lt;&lt;{{arr3.name}}&gt;&gt;</h1>
+                            <p class="computer">by {{arr3.by}}</p>
+                            <p>&lt;&lt;{{arr3.name}}&gt;&gt;{{arr3.txt}}</p>
+                            <div class="TV">
+                                <span class="icon icon-biaoqian">{{arr3.txt2}}</span>
+                            </div>
+                            <div class="progress">
+                                  <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                    <span class="sr-only">60% Complete (danger)</span>
+                                  </div>
+                            </div>
+                            <ul class="percent clear">
+                                <li>
+                                    <div>{{arr3.txt3}}%</div>
+                                    <div>进度</div>
+                                </li>
+                                <li>
+                                    <div>¥{{arr3.txt4}}</div>
+                                    <div>支持金额</div>
+                                </li>
+                                <li>
+                                    <div>6</div>
+                                    <div>剩余天数</div>
+                                </li>
+
+                            </ul>
+                    </div>
+                </li>
+            </ul>
+    </div>
+</div>

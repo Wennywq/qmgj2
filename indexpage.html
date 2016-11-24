@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html ng-app='qmgj'>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>全民共进</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="dest/app.min.css">
+	<script src="bower_components/angular/angular.js"></script>
+	<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+</head>
+<body ng-controller='homeController'>
+    <header>
+    	<div class="index-top clear">
+			<img src="images/index-logo.png" alt="" class="index-logo">
+			<div class="index-nav clear">
+                <a ui-sref="home" title="" class="active" ui-sref-active='active'>首页</a>
+                <a title="" ui-sref-active='active'>节目专栏</a>
+				<a ui-sref="circle" title="" ui-sref-active='active'>圈子</a>
+			</div>
+			<span class="icon icon1">&#xe601;</span>
+			<input type="text" name="" value="" placeholder="输入你想要搜索的内容">
+			<div class="index-nav-right">
+				<a ui-sref='login'>登录</a>
+				<a ui-sref='zhuce'>注册</a>
+			</div>
+	    </div>
+    </header>
+    <div ui-view></div>
+    <footer>
+    	<div class="footer">
+     	    <div class="index-footer2">
+     	        <div class="container">
+     	        	<div class="index-footer2-left">
+     	 	 		    <a href="#" title="">关于全民创造</a>
+     	 	 		    <a href="#" title="">全民创造用户协议</a>
+     	 	 		    <a href="#" title="">全民创造风险提示</a>
+     	 	 		    <a href="#" title="">联系我们</a>
+     	 	 	    </div>
+     	 	 	    <div class="index-footer2-right clear">
+     	 	 	        <span class="index-logo2"><img src="images/index-logo2.png" alt=""></span>
+     	 	 	        <span class="adr">&copy;2015</span>
+     	 	 	    </div>
+     	        </div>
+     	 	</div>
+        </div>
+    </footer>
+	<script src="dest/app.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+<div class="test3-2">
+	<form name="myForm" ng-model="myForm" novalidate>
+		<p>邮箱地址<input type="text" name=""></p>
+		<p>验证码<input type="text" name="IDcard" ng-model='IDcard' ng-maxlength='6' required></p>
+		<div ng-show='myForm.IDcard.$error.required && myForm.IDcard.$dirty' style="color:red">*必填</div>
+		<div ng-show="myForm.IDcard.$error.maxlength" style="color:red">验证码错误，请重新输入</div>
+	</form>
+	<span>保存</span>
+</div>
